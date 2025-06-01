@@ -1,4 +1,4 @@
-function canFitInContainer(products, containerSize) {
+function isEnoughCapacity(products, containerSize) {
   let totalQuantity = 0;
 
   for (const quantity of Object.values(products)) {
